@@ -1,0 +1,92 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>骂人宝典/祖安语录</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileColor" content="#3372DF">
+    <link rel="apple-touch-icon-precomposed" href="images/smile.png">
+    <link rel="icon" sizes="192x192" href="images/smile.png">
+    <link rel="shortcut icon" href="images/smile.png">
+    <link rel="stylesheet" href="./css/material.deep_purple-pink.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/clipboard.min.js"></script>
+</head>
+
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <dialog class="mdl-dialog">
+        <h4 class="mdl-dialog__title"><span id="dialog_title">7日排行榜</span></h4>
+        <div class="mdl-dialog__actions">
+            <button type="button" class="mdl-button close">知道了</button>
+        </div>
+    </dialog>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row" style="margin:30px">
+                <h3>骂人宝典</h3>
+            </div>
+            <div class="mdl-layout__tab-bar  mdl-color--primary-dark">
+                <a href="#index" class="mdl-layout__tab is-active">首页</a>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="mdl-layout__tab-panel is-active" id="index">
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col" style="height:250px">
+                        <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing"
+                            style="align-items: center; margin-top: 0px">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--12-col">
+                                <label class="mdl-textfield__input" type="text" id="txt_nmsl" value=" "></label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section--center mdl-grid mdl-grid--no-spacing">
+                    <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone"
+                        align='center'>
+
+                        <button class="mdl-button mdl-js-button mdl-button--raised  mdl-button--accent"
+                            onclick="random('max')" id="btn_random_max">
+                            <span id="span_random_max">😤火力全开</span>
+                        </button>
+
+                        <button class="mdl-button mdl-js-button mdl-button--raised  mdl-button--accent"
+                            style='background-color:#4db6ac' onclick="random('min')" id="btn_random_min">
+                            <span id="span_random_min">🙂口吐莲花</span>
+                        </button>
+                    </div>
+
+                    <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone"
+                        align='center'>
+
+                        <button class="mdl-button mdl-js-button mdl-button--raised  mdl-button--accent"
+                            style='background-color:#46c792' onclick="last()" id="btn_last">
+                            <span>上一条</span>
+                        </button>
+
+                        <label class="mdl-button mdl-js-button mdl-button--raised  mdl-button--accent">
+                            <input type="checkbox" id="chk_god" class="mdl-checkbox__input">
+                            <span class="mdl-checkbox__label">骂爹模式</span>
+                        </label>
+                        <button class="mdl-button mdl-js-button mdl-button--raised  mdl-button--accent"
+                            style='background-color:#46c792' data-clipboard-text="10086" id="btn_nmsl">
+                            <span id="span_copy">复制</span>
+                        </button>
+                    </div>
+                </section>
+                <div style="text-align: center;padding-top:30px">⚠️ 不管怎么说骂人都是不对的，请不要主动攻击别人。</div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
