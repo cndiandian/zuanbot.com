@@ -11,14 +11,12 @@
 在线文档：[Notion文档](https://dians.notion.site/d865fac077f1430f9510d020f8713c8e)、[口吐芬芳(谷歌文档)](https://docs.google.com/document/d/1SskgYtDpYL6P_4qmX2A1ndBl8MY5NeDcBaYPxS-yxIo/edit?usp=sharing) 、[火力全开(谷歌文档)](https://docs.google.com/document/d/14YG9qaNDZk275av-Iss6B6YY-eDTdkS5w_my3f7349A/edit?usp=sharing)
 
 ## 如何使用
-下载后放在任意一个支持php的目录就可以使用啦
+下载后放在任意一个支持php的目录就可以使用啦，各位如果有通过本代码搭建了新的站点，欢迎告知，我会在主站贴上您的站点。
 
 ## 为啥要开源
 本站是 https://zuanbot.com 的源站点，在2022年1月7日中午发现域名被墙且DNS被污染，不想再换域名周旋了，索性就关站停止服务了；
 
 粉丝群也一直有人表示有需要，所以就把词库与源码都放出来了，不过实际也没啥技术难度，核心代码只有一行而已。
-
-各位如果有通过本代码搭建了新的站点，欢迎告知，我会在主站贴上您的站点。
 
 ## 什么原理
 收集整理了N条骂人的句子，然后随机读取一条输出即可。
