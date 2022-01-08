@@ -1,4 +1,6 @@
 # 骂人宝典 / 祖安语录
+![](https://img.shields.io/github/license/cndiandian/zuanbot.com)
+![](https://visitor-badge.glitch.me/badge?page_id=cndiandian.zuanbot)
 
 ## 有什么用
 可以随机输出一条骂人的句子，有`口吐芬芳`与`火力全开`两个模式。
