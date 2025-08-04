@@ -1,7 +1,7 @@
 # 骂人宝典 / 祖安语录
 ![](https://img.shields.io/github/license/cndiandian/zuanbot.com)
 ![](https://visitor-badge.glitch.me/badge?page_id=cndiandian.zuanbot)
-
+z
 ## 有什么用
 可以随机输出一条骂人的句子，有`口吐芬芳`与`火力全开`两个模式。
 
@@ -28,6 +28,10 @@ SELECT * FROM `main` ORDER BY RANDOM() limit 1
 
 ## 词库都是怎么来的
 最初来源于网络收集了一些，后来基本就都是各位用户的投稿了，投稿渠道现已关闭。
+
+## 电脑版APP
+推荐一个由 @zihluwang 开发并开源的祖安APP项目 [@zihluwang/zuanbot](https://github.com/zihluwang/zuanbot)，兼容 `Win` 和 `Mac` 客户端，有需要的同学可以试试这个工具。
+> 本推荐仅为个人体验分享，工具使用请自行评估风险，本人不对使用过程中产生的任何问题或后果负责。
 
 ## 写在最后
 还有其他好玩的生成器，比如彩虹屁生成器、毒鸡汤、朋友圈文案等等，请访问 https://shadiao.app 体验。
